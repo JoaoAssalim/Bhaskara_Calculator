@@ -1,2 +1,15 @@
-# Bhaskara_Calculator
-This is a Bhaskara Calculator, the program calculates the delta and the x's of the bhaskara calculation
+# Bhaskara Calculator
+## _The Newest Calculator_
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+This Calculator Will help you in your college.
+
+- Calculate every with every number
+- Easy to use
+
+
+
+   [dill]: <https://www.python.org/>
+   [git-repo-url]: <https://github.com/JoaoAssalim/Bill_Bot.git>
+   [Python]: <https://www.python.org/>
