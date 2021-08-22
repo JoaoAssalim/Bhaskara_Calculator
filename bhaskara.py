@@ -10,27 +10,27 @@ def baskara():
 
     try:
         delta = 0
-        a = int(a)
-        b = int(b)
-        c = int(c)
+        a = float(a)
+        b = float(b)
+        c = float(c)
         delta = b**2-4*a*c
-        print(f"Δ = {delta}")
+        print(f"Δ = {delta:.2f}")
 
         #bhaskara
         if delta > 0:
             raiz_delta = math.sqrt(delta)
             x1 = (-b + math.sqrt(delta)) / 2*a
             x2 = (-b - math.sqrt(delta)) / 2*a
-            print(f"x' = {x1}")
-            print(f"x'' = {x2}")
+            print(f"x' = {x1:.2f}")
+            print(f"x'' = {x2:.2f}")
 
         elif delta < 0:
             raiz_delta_neg = delta * -1
             raiz_delta_neg = math.sqrt(raiz_delta_neg)
             x1 = (-b + raiz_delta_neg) / 2*a
             x2 = (-b - raiz_delta_neg) / 2*a
-            print(f"x' = {x1}i")
-            print(f"x'' = {x2}i")
+            print(f"x' = {x1:.2f}i")
+            print(f"x'' = {x2:.2f}i")
     except:
         print('Nao foi possivel calcular a conta com o valor recebido ;(')
 
