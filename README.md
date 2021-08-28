@@ -3,7 +3,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-This Calculator Will help you in your college.
+This Calculator Will help you in your school.
 
 - Calculate every with every number
 - Easy to use
