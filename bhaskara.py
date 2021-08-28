@@ -19,8 +19,8 @@ def baskara():
         #bhaskara
         if delta > 0:
             raiz_delta = math.sqrt(delta)
-            x1 = (-b + math.sqrt(delta)) / 2*a
-            x2 = (-b - math.sqrt(delta)) / 2*a
+            x1 = (-b + raiz_delta) / 2*a
+            x2 = (-b - raiz_delta) / 2*a
             print(f"x' = {x1:.2f}")
             print(f"x'' = {x2:.2f}")
 
